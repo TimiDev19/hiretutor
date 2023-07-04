@@ -150,3 +150,202 @@ select{
 #Hire:hover{
     box-shadow: none;
 }
+
+@media (max-width: 1280px) {
+    form{
+        margin: 0;
+        width: 800px;
+    }
+
+    .textarea{
+        width: 800px;
+    }
+
+    .page-1{
+        width: 800px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 1024px) {
+    form{
+        margin: 0;
+        width: 700px;
+    }
+
+    .textarea{
+        width: 700px;
+    }
+
+    .page-1{
+        width: 700px;
+
+    }
+}
+
+@media (max-width: 991px) {
+    form{
+        margin: 0;
+        width: 585px;
+    }
+
+    .textarea{
+        width: 585px;
+    }
+
+    .page-1{
+        width: 585px;
+
+    }
+}
+
+@media (max-width: 912px) {
+    form{
+        margin: 0;
+        width: 630px;
+    }
+
+    .textarea{
+        width: 620px;
+    }
+
+    .page-1{
+        width: 625px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    form{
+        margin: 0;
+        width: 530px;
+    }
+
+    .textarea{
+        width: 530px;
+    }
+
+    .page-1{
+        width: 530px;
+
+    }
+}
+
+@media (max-width: 617px) {
+    form{
+        margin: 0;
+        width: 385px;
+    }
+
+    .info h1{
+        margin: 0;
+    }
+
+    .textarea{
+        width: 300px;
+    }
+
+    .page-1{
+        width: 385px;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }
+
+    .info h1{
+        margin: 0;
+        width: 250px;
+    }
+
+    .info h2{
+        margin-left: 0;
+        width: 250px;
+    }
+
+    form{
+        margin: 0;
+        width: 250px;
+    }
+
+    .textarea{
+        width: 250px;
+    }
+
+    .page-1{
+        width: 250px;
+
+    }
+
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px){
+    .home-img img{
+        width: 90vw;
+    }
+ 
+    .info h1{
+        margin: 0;
+        width: 220px;
+    }
+
+    .info h2{
+        margin-left: 0;
+        width: 220px;
+    }
+
+    form{
+        margin: 0;
+        width: 220px;
+    }
+
+    .textarea{
+        width: 220px;
+    }
+
+    .page-1{
+        width: 220px;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .info h1{
+        font-size: 20px;
+    }
+    .info h2{
+        font-size: 20px;
+        width: 180px;
+    }
+    form{
+        margin: 0;
+        width: 170px;
+    }
+
+    .textarea{
+        width: 170px;
+    }
+
+    .page-1{
+        width: 170px;
+    }
+}
